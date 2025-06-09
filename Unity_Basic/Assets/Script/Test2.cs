@@ -1,16 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Xml.Serialization;
 using TMPro;
 using UnityEngine;
 
 public class Test2 : MonoBehaviour
 {
     public TextMeshProUGUI Txt_Text;
-    public string NextText;
 
-    public void OnClickButton()
+    public void workBear()
     {
-        Txt_Text.text ="³ª´Â Çï½º ³ó´ã°õ.";
+        // ÇÊ¿äÇÑ µ¿ÀÛÀ» ¿©±â¿¡ ÀÛ¼ºÇÏ¼¼¿ä.
     }
- 
+
+    public void eatBear()
+    {
+        Txt_Text.text = "³ª´Â Çï½º ³ó´ã°õ.";
+    }
 }
